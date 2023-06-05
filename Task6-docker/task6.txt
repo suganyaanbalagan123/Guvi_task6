@@ -1,0 +1,67 @@
+ubuntu@ip-172-31-45-242:~$ history
+    1  clear
+    2  sudo apt update
+    3  sudo apt install docker.io
+    4  sudo docker images
+    5  docker pull python
+    6  sudo docker pull python
+    7  sudo docker images
+    8  vi Dockerfile
+    9  docker build -t my-python-app .
+   10  sudo docker build -t my-python-app .
+   11  sudo docker run --name mycontainer -d -p 3000:4000 python
+   12  curl localhost:4000
+   13  curl localhost:3000
+   14  curl localhost:4000
+   15  clear
+   16  git clone https://github.com/suganyaanbalagan123/python-new.git
+   17  cd python-new
+   18  ls
+   19  sudo docker build -t python1 .
+   20  sudo docker run -- name mycontainer -d -p 4000:3000 python1
+   21  sudo docker images
+   22  sudo docker run -- name mycontainer -d -p 5000:5000 python1
+   23  docker run -it --rm --name my-running-app python1
+   24  sudo docker run -it --rm --name my-running-app python1
+   25  sudo docker run -- name mycontainer -it python1
+   26  git clone https://github.com/suganyaanbalagan123/python-new.git
+   27  cd
+   28  git clone https://github.com/suganyaanbalagan123/python-new.git
+   29  cd python-new
+   30  ls
+   31  rm python-new
+   32  rmrf python-new
+   33  sudo docker build -t python1 .
+   34  sudo docker run -- name mycontainer -it python1
+   35  docker run python1
+   36  sudo docker run python1
+   37  clear
+   38  git clone https://github.com/suganyaanbalagan123/python-docker.git
+   39  cd python-docker
+   40  ls
+   41  sudo docker build -t mypython .
+   42  sudo docker run mypython
+   43  sudo docker run --name mycontainer -d -p 3000:4000 mypython
+   44  sudo docker run --name mycontainer1 -d -p 3000:4000 mypython
+   45  sudo docker imags
+   46  sudo docker images
+   47  sudo docker create volume python_vol
+   48  sudo docker volume create myvolume
+   49  sudo docker volume ls
+   50  docker run -d --name mycontainer1 -v myvolume:/data ubuntu
+   51  sudo docker run -d --name mycontainer1 -v myvolume:/data ubuntu
+   52  sudo docker run -d --name mycontainer2 -v myvolume:/data ubuntu
+   53  sudo docker start mycontainer2
+   54  docker exec -it mycontainer2 /bin/bash
+   55  sudo docker exec -it mycontainer2 /bin/bash
+   56  sudo docker ps -a
+   57  sudo docker inspect volume myvolume
+   58  cd /var/lib/docker/volumes/myvolume/_data
+   59  cd var
+   60  cd /var
+   61  cd /lib
+   62  cd /docker
+   63  cd docker
+   64  sudo -i
+   65  cd 
+   66  history
